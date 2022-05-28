@@ -1,6 +1,6 @@
-/* Body */
+/* Element Selectors */
 
-body, article {
+body, article, section {
   border: dashed;
   border-width: .2rem;
 }
@@ -9,8 +9,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  background-color: #A8DADC;
 }
 
 img {
   width: 2.5rem;
+}
+
+/* Class Selectors */
+
+.shared-movies {
+  background-color: #E63946 ;
 }
