@@ -1,6 +1,6 @@
 /* Element Selectors */
 
-body, article, section {
+body, article, section, div {
   border: dashed;
   border-width: .2rem;
 }
@@ -13,7 +13,7 @@ header {
 }
 
 img {
-  width: 2.5rem;
+  width: 2rem;
 }
 
 /* Class Selectors */
@@ -21,3 +21,21 @@ img {
 .shared-movies {
   background-color: #E63946 ;
 }
+
+.top--grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom--grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: rgba(79, 91, 102, .9);
+  width: 4rem;
+  height: 8rem;
+  padding: 6rem;
+}
+
