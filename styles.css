@@ -1,1 +1,10 @@
+/* Body */
 
+body {
+  border: dashed;
+  border-width: .25rem;
+}
+
+img {
+  width: 2.5rem;
+}
