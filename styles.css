@@ -1,8 +1,14 @@
 /* Body */
 
-body {
+body, article {
   border: dashed;
-  border-width: .25rem;
+  border-width: .2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 img {
