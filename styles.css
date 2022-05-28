@@ -1,1 +1,41 @@
+/* Element Selectors */
+
+body, article, section, div {
+  border: dashed;
+  border-width: .2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #A8DADC;
+}
+
+img {
+  width: 2rem;
+}
+
+/* Class Selectors */
+
+.shared-movies {
+  background-color: #E63946 ;
+}
+
+.top--grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom--grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: rgba(79, 91, 102, .9);
+  width: 4rem;
+  height: 8rem;
+  padding: 6rem;
+}
 
