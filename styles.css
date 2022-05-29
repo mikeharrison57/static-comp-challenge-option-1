@@ -1,8 +1,19 @@
 /* Element Selectors */
 
-body, article, section, div {
-  border: dashed;
-  border-width: .2rem;
+html, body {
+  background-image: url("https://i.pinimg.com/originals/57/86/4f/57864fba6ddc7752526cb057e1801391.jpg");
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -10,32 +21,171 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   background-color: #A8DADC;
-}
-
-img {
-  width: 2rem;
+  color: #1D3557;
+  margin: 0;
 }
 
 /* Class Selectors */
 
+.icon { 
+  width: 2rem;
+  padding-left: .75rem;
+}
+
+.drop-down {
+  width: 1rem;
+}
+
+.reel {
+  width: 4.5rem;
+}
+
+.poster {
+  width: 14.5rem;
+  height: 7.5rem;
+  opacity: 80%;
+}
+
+.dashboard--container {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  padding: .75rem;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: .75rem;
+}
+
 .shared-movies {
-  background-color: #E63946 ;
+  background-color: lightcoral;
+  color: #1D3557;
+  padding: .5rem;
+}
+
+.whole-grid {
+  padding: .5rem;
 }
 
 .top--grid {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding-top: 11.75rem;
 }
 
 .bottom--grid {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding-top: 24rem;
 }
 
-.box {
-  background-color: rgba(79, 91, 102, .9);
-  width: 4rem;
-  height: 8rem;
-  padding: 6rem;
+.mini-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15rem;
+  height: 1rem;
+  margin: 1rem;
 }
 
+.box-images,
+.box-name,
+.box-link,
+.box-footer {
+  background-color: #457B9D; 
+  padding: .25rem;
+}
+
+.box-images,
+.poster,
+.recipeint-name,
+.date,
+.playlist,
+.playlist-name,
+.attachments,
+.attachment-number {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.share,
+.views,
+.view-count {
+  position: absolute;
+}
+
+.share {
+  width: 3.5rem;
+  bottom: 4.5rem;
+  right: 11rem;
+}
+
+.views {
+  color: 
+  bottom: 6.5rem;
+  left: 11rem;
+  color: white;
+}
+
+.view-count {
+  bottom: 2rem;
+  left: 11.4rem;
+}
+
+.recipeint-name,
+.date,
+.playlist,
+.playlist-name,
+.attachments,
+.attachment-number {
+  left: .3rem;
+  margin: .5rem;
+}
+
+.box-link {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  background-color: lightgray;
+  opacity: 60%;
+  left: 2rem;
+  margin: .5rem;
+}
+
+.box-footer {
+  background-color: #457B9D;
+}
+
+.recipeint-name,
+.playlist-name {
+  font-size: 1.25rem;
+  color: lightgray;
+}
+
+.playlist,
+.attachments {
+  font-size: 1rem;
+}
+
+.date {
+  font-size: .75rem;
+  opacity: 50%;
+}
+
+/* ID Selectors */
+
+#number {
+  font-size: 2rem;
+  color: white;
+}
