@@ -12,6 +12,15 @@ header {
   background-color: #A8DADC;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+}
+
 /* Class Selectors */
 
 .icon { 
@@ -51,35 +60,65 @@ header {
   background-color: #457B9D;
   display: flex;
   flex-direction: column;
-  min-width: 300px;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
   justify-content: space-evenly;
+  width: 300px;
+  height: 15rem;
+  margin: 3rem;
 }
 
-.box-images, .poster {
+.box-images,
+.poster,
+.recipeint-name,
+.date,
+.playlist,
+.playlist-name,
+.attachments,
+.attachment-number {
   position: relative;
   top: 0;
   left: 0;
 }
 
+.share,
+.views,
+.view-count {
+  position: absolute;
+}
+
 .share {
   width: 4.5rem;
-  position: absolute;
   bottom: 5.5rem;
 }
 
 .views {
-  position: absolute;
   bottom: 8.5rem;
   left: 15rem;
 }
 
 .view-count {
-  position: absolute;
   bottom: 6rem;
   left: 15.7rem;
+}
+
+.recipeint-name,
+.date,
+.playlist,
+.playlist-name,
+.attachments,
+.attachment-number {
+  left: 1rem;
+  margin: .5rem;
+}
+
+.box-link {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  background-color: lightgray;
+  opacity: 60%;
+  padding: .75rem;
 }
 
 .box-footer {
