@@ -1,5 +1,10 @@
 /* Element Selectors */
 
+html, body {
+  background-image: url("https://i.pinimg.com/originals/57/86/4f/57864fba6ddc7752526cb057e1801391.jpg");
+  background-position: center;
+}
+
 h1,
 h2,
 h3,
@@ -45,6 +50,7 @@ header {
   display: flex;
   align-items: center;
   font-size: small;
+  padding: .75rem;
 }
 
 .title-section {
@@ -56,11 +62,12 @@ header {
 .user {
   display: flex;
   align-items: center;
+  padding: .75rem;
 }
 
 .shared-movies {
-  background-color: #E63946;
-  color: black;
+  background-color: lightcoral;
+  color: #1D3557;
   padding: .5rem;
 }
 
@@ -73,6 +80,7 @@ header {
 .bottom--grid {
   display: flex;
   justify-content: center;
+  padding-top: 24rem;
 }
 
 .mini-box {
