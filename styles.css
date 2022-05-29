@@ -13,6 +13,7 @@ header {
 }
 
 /* Class Selectors */
+
 .icon { 
   width: 2rem;
 }
@@ -20,6 +21,7 @@ header {
 .poster {
   width: 18.5rem;
   height: 10rem;
+  opacity: 80%;
 }
 
 .shared-movies {
@@ -38,14 +40,15 @@ header {
 }
 
 .box {
-  background-color: rgba(79, 91, 102, .5);
+  /* background-color: rgba(79, 91, 102, .5); */
   width: 8rem;
   height: 8rem;
   padding: 6rem;
   display: flex;
 }
 
-.mini-idea {
+.mini-box {
+  background-color: #457B9D;
   display: flex;
   flex-direction: column;
   min-width: 300px;
@@ -55,27 +58,30 @@ header {
   justify-content: space-evenly;
 }
 
-.mini-header {
-  height: 40px;
-  background-color: var(--darkBlue);
-  display: flex;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  justify-content: space-between;
+.box-images, .poster {
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.mini-body {
-  padding: 10px;
-  height: 220px;
-  color: var(--darkBlue);
-  background-color: var(--white);
+.share {
+  width: 4.5rem;
+  position: absolute;
+  bottom: 5.5rem;
 }
 
-.mini-footer {
-  height: 40px;
-  background-color: var(--buttonblue);
-  color: var(--offwhite);
-  display: flex;
-  align-items: center;
+.views {
+  position: absolute;
+  bottom: 8.5rem;
+  left: 15rem;
+}
+
+.view-count {
+  position: absolute;
+  bottom: 6rem;
+  left: 15.7rem;
+}
+
+.box-footer {
+  background-color: #457B9D;
 }
