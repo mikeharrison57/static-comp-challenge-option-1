@@ -1,10 +1,5 @@
 /* Element Selectors */
 
-/* body, article, section, div {
-  border: dashed;
-  border-width: .2rem;
-} */
-
 h1,
 h2,
 h3,
@@ -36,6 +31,10 @@ header {
   width: 1rem;
 }
 
+.reel {
+  width: 4.5rem;
+}
+
 .poster {
   width: 14.5rem;
   height: 7.5rem;
@@ -46,6 +45,12 @@ header {
   display: flex;
   align-items: center;
   font-size: small;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .user {
@@ -148,6 +153,22 @@ header {
 
 .box-footer {
   background-color: #457B9D;
+}
+
+.recipeint-name,
+.playlist-name {
+  font-size: 1.25rem;
+  color: lightgray;
+}
+
+.playlist,
+.attachments {
+  font-size: 1rem;
+}
+
+.date {
+  font-size: .75rem;
+  opacity: 50%;
 }
 
 /* ID Selectors */
