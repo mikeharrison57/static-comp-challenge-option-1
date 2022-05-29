@@ -12,19 +12,24 @@ header {
   background-color: #A8DADC;
 }
 
-img {
+/* Class Selectors */
+.icon { 
   width: 2rem;
 }
 
-/* Class Selectors */
+.poster {
+  width: 18.5rem;
+  height: 10rem;
+}
 
 .shared-movies {
-  background-color: #E63946 ;
+  background-color: #E63946;
 }
 
 .top--grid {
   display: flex;
   justify-content: space-between;
+  padding-top: 5rem;
 }
 
 .bottom--grid {
@@ -33,9 +38,44 @@ img {
 }
 
 .box {
-  background-color: rgba(79, 91, 102, .9);
-  width: 4rem;
+  background-color: rgba(79, 91, 102, .5);
+  width: 8rem;
   height: 8rem;
   padding: 6rem;
+  display: flex;
 }
 
+.mini-idea {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.mini-header {
+  height: 40px;
+  background-color: var(--darkBlue);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mini-body {
+  padding: 10px;
+  height: 220px;
+  color: var(--darkBlue);
+  background-color: var(--white);
+}
+
+.mini-footer {
+  height: 40px;
+  background-color: var(--buttonblue);
+  color: var(--offwhite);
+  display: flex;
+  align-items: center;
+}
