@@ -71,6 +71,10 @@ header {
   padding: .5rem;
 }
 
+.whole-grid {
+  padding: .5rem;
+}
+
 .top--grid {
   display: flex;
   justify-content: center;
