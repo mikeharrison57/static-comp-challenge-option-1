@@ -6,6 +6,7 @@
 - [Illustrations](#illustrations)
 - [Technologies Used](#technologies-used)
 - [Context](#context)
+- [Deployed Link](#deployed-link)
 - [Application Set-Up](#application-set-up)
 - [Contributor LinkedIn and GitHub](#contributor-linkedin-and-github)
 - [Project Specs](#project-specs)
@@ -29,6 +30,10 @@
 ## Context
 
 - The static comp project tested my abilities to match a provided comp. This provided comp included a somewhat complex layout involving a title section with a dashboard, and eight boxes of content. These boxes had similar properties but slightly different information. My comp has a movie theme, but it does roughly match the layout of the comp provided. I put my HTML and CSS skills to the test to match this comp.
+
+## Deployed Link
+
+- [Static Comp Link](https://mikeharrison57.github.io/static-comp-challenge-option-1/)
 
 ## Application Set-Up
 
